@@ -22,5 +22,5 @@ with open(path_in, "r", encoding='UTF-8') as content:
     path_out = sys.argv[2]
     with open(path_out, "w") as content2:
         payload = "import base64 \nexec(base64.b64decode({}))".format(code)
-        print(payload)
         content2.write(payload)
+        print("Treatment completed. You can find your obfuscated file in {}".format(path_out))
