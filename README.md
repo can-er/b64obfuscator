@@ -10,7 +10,7 @@
 ## Usage
 
 ```
-python3 b64obfuscer.py path/of/source.py path/of/destination.py
+python3 b64obfuscator.py path/of/source.py path/of/destination.py
 ```
 
 ### Note:
