@@ -1,6 +1,6 @@
-<a href="https://github.com/can-er/b64obfuscator/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/can-er/b64obfuscator?color=yellow&label=License&logo=Github"></a>
-# b64 Obfuscator
 
+# b64 Obfuscator
+<a href="https://github.com/can-er/b64obfuscator/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/can-er/b64obfuscator?color=yellow&label=License&logo=Github"></a>
 ## This tool allows you to obfuscate your program into a base64 form. It can be usefull for many reasons:
 
     * Hide credentials who can be in "plain-text"
