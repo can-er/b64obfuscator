@@ -9,9 +9,13 @@ import base64
 import os
 import sys
 
-cwd = os.getcwd()
-path_in = sys.argv[1]
-
+try:
+    cwd = os.getcwd()
+    path_in = sys.argv[1]
+except:
+    print("Usage: python3 b64obfuscator.py path/of/source.py path/of/destination.py")
+    print("Note: source & destination must be .py file. Destination is created by the tool itself.")
+    sys.exit()
 
 with open(path_in, "r", encoding='UTF-8') as content:
     code = base64.b64encode(bytes(content.read(), 'utf-8'))
